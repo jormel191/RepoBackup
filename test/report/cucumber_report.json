@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-01T23:11:06.504Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9764090700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "seleniumgluecode.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Enter the comics category from the Home screen",
+        "description": "",
+        "id": "comics-category;enter-the-comics-category-from-the-home-screen",
+        "after": [
+          {
+            "result": {
+              "duration": 1431629900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "seleniumgluecode.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 217998500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on the HOME page of imalittletester",
+            "match": {
+              "location": "seleniumgluecode.test.userFindHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1832001700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on the button The litter tester comics",
+            "match": {
+              "location": "seleniumgluecode.test.clickbottonLitter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 296000500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "It should be directed to the comics screen",
+            "match": {
+              "location": "seleniumgluecode.test.se_debe_redirigir_a_la_pantalla_comics()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Comics category",
+    "description": "  As a user I want to read tester jokes to laugh and have a good time.",
+    "id": "comics-category",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/test.feature",
+    "tags": []
+  }
+]
